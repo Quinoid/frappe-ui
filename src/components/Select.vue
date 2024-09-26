@@ -144,7 +144,7 @@ const selectClasses = computed(() => {
     paddingClasses.value,
     variantClasses,
     textColor.value,
-    'transition-colors w-full py-0',
+    'transition-colors w-full py-0 bg-white',
   ]
 })
 

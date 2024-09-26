@@ -74,7 +74,7 @@ const switchType = computed(() => {
 
 const switchClasses = computed(() => {
   return [
-    'relative inline-flex flex-shrink-0 cursor-pointer rounded-full border-transparent transition-colors duration-100 ease-in-out items-center',
+    'relative inline-flex flex-shrink-0 cursor-pointer rounded-full border-transparent  transition-colors duration-100 ease-in-out items-center',
     'focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-400',
     'disabled:cursor-not-allowed disabled:bg-gray-200',
     props.modelValue

@@ -118,7 +118,7 @@ const inputClasses = computed(() => {
     paddingClasses,
     variantClasses,
     textColor.value,
-    'transition-colors w-full',
+    'transition-colors w-full bg-white',
   ]
 })
 

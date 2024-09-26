@@ -76,7 +76,7 @@ const inputClasses = computed(() => {
     paddingClasses,
     variantClasses,
     props.disabled ? 'text-gray-600' : 'text-gray-800',
-    'transition-colors w-full block',
+    'transition-colors w-full block bg-white',
   ]
 })
 

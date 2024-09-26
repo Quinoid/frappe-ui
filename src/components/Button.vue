@@ -167,7 +167,7 @@ const buttonClasses = computed(() => {
   }
 
   return [
-    'inline-flex items-center justify-center gap-2 transition-colors focus:outline-none',
+    'inline-flex items-center justify-center gap-2 transition-colors bg-white  focus:outline-none',
     isDisabled.value ? disabledClasses : variantClasses,
     focusClasses,
     sizeClasses,
