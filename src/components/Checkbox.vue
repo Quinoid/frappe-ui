@@ -9,7 +9,7 @@
     }"
   >
     <input
-      class="rounded-sm"
+      class="rounded-sm qbs-vue-checkbox"
       :class="inputClasses"
       type="checkbox"
       :disabled="disabled"
@@ -62,7 +62,7 @@ const labelClasses = computed(() => {
 const inputClasses = computed(() => {
   let baseClasses = props.disabled
     ? 'border-gray-300 bg-gray-50 text-gray-400'
-    : 'border-gray-500 text-gray-900 hover:border-gray-600 focus:ring-offset-0 focus:border-gray-900 active:border-gray-700 transition'
+    : 'border-gray-500 text-gray-900 hover:border-gray-600 focus:ring-offset-0 focus:border-gray-900 active:border-gray-700 transition qbs-vue-checkbox'
 
   let interactionClasses = props.disabled
     ? ''

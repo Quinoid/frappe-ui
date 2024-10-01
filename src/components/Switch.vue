@@ -76,7 +76,7 @@ const switchClasses = computed(() => {
   return [
     'relative inline-flex flex-shrink-0 cursor-pointer rounded-full border-transparent  transition-colors duration-100 ease-in-out items-center',
     'focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-400',
-    'disabled:cursor-not-allowed disabled:bg-gray-200',
+    'disabled:cursor-not-allowed disabled:bg-gray-200 qbs-vue-switch',
     props.modelValue
       ? 'bg-gray-900 enabled:hover:bg-gray-800 active:bg-gray-700 group-hover:enabled:bg-gray-800'
       : 'bg-gray-300 enabled:hover:bg-gray-400 active:bg-gray-500 group-hover:enabled:bg-gray-400',
