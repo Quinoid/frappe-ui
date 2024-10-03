@@ -134,7 +134,7 @@
                 <slot name="actions" v-bind="{ close }">
                   <div class="space-y-2">
                     <Button
-                      class="w-full"
+                      :class="['w-full', action.class]"
                       v-for="action in dialogActions"
                       :key="action.label"
                       v-bind="action"
